@@ -106,36 +106,36 @@ $("label[for='relaytype']").text("Tipo de Relé");
 
 
 //Bypass over temperature
-$("label[for='g1']").text("Bypass over temperature");
+$("label[for='g1']").text("Bypass por sobretemperatura");
 //Bypass threshold mV
-$("label[for='g2']").text("Bypass threshold mV");
+$("label[for='g2']").text("Umbral del Bypass en mV");
 
-$("#sent > span.x.t").text("Packets sent:");
-$("#received > span.x.t").text("Packets rec'd:");
-$("#roundtrip > span.x.t").text("Roundtrip (ms):");
+$("#sent > span.x.t").text("Paquetes enviados:");
+$("#received > span.x.t").text("Paquetes recibidos:");
+$("#roundtrip > span.x.t").text("Tiempo ida y vuelta (ms):");
 
 //Integration
-$("#ip1").text("Integration");
+$("#ip1").text("Integración");
 //For security, you will need to re-enter the password for the service(s) you want to enable or modify, before you save.
-$("#ip2").text("For security, you will need to re-enter the password for the service(s) you want to enable or modify, before you save.");
+$("#ip2").text("Por seguridad, necesitarás volver a introducir la contraseña del servicio que quieres habilitar o modificar antes de guardar.");
 //After changes are made, the controller will need to be rebooted, do this manually.
-$("#ip3").text("After changes are made, the controller will need to be rebooted, do this manually.");
+$("#ip3").text("Después de que los cambios se realicen, el controlador necesitará ser reseteado, haz esto manualmente.");
 
 //WARNING
-$("#ap5").text("WARNING");
+$("#ap5").text("ADVERTENCIA");
 //This is a DIY product/solution so don’t use this for safety critical systems or in any situation where there could be a risk to life.
-$("#ap6").text("This is a DIY product/solution so don’t use this for safety critical systems or in any situation where there could be a risk to life.");
+$("#ap6").text("Esto es un producto/solución DIY, no lo uses en sistemas críticos de seguridad o en cualquier otra situación donde puede haber un riesgo para la vida.");
 //There is no warranty, it may not work as expected or at all.
-$("#ap7").text("There is no warranty, it may not work as expected or at all.");
+$("#ap7").text("No hay ninguna garantía, esto puede no funcionar como esperas o no funcionar en absoluto.");
 //The use of this project is done so entirely at your own risk. It may involve electrical voltages which could kill - if in doubt, seek help.
-$("#ap8").text("The use of this project is done so entirely at your own risk. It may involve electrical voltages which could kill - if in doubt, seek help.");
+$("#ap8").text("La utilización de este proyecto se hace bajo tu total responsabilidad. Puede incluir voltajes que pueden matarte. Si tienes dudas, busca ayuda.");
 //The use of this project may not be compliant with local laws or regulations - if in doubt, seek help.
-$("#ap8a").text("The use of this project may not be compliant with local laws or regulations - if in doubt, seek help.");
+$("#ap8a").text("La utilización de este proyecto puede no ajustarse a las leyes o regulaciones locales - si tienes dudas, busca ayuda.");
 
 //Modules & Banks
-$("#mb1").text("Modules & Banks");
+$("#mb1").text("Módulos y bancos");
 //DIYBMS supports up to 100 modules in total. These modules can be split into banks to support parallel configurations.
-$("#mb2").text("DIYBMS supports up to 100 modules in total. These modules can be split into banks to support parallel configurations.");
+$("#mb2").text("DIYBMS suporta hasta 100 módulos en total. Estos módulos puede separarse en bancos para configurar paralelos.");
 //Example: You have 16 cells configured as 8 in series and 2 in parallel (8S2P).
-$("#mb3").text("Example: You have 16 cells configured as 8 in series and 2 in parallel (8S2P).");
+$("#mb3").text("Ejemplo: Si tienes 16 celdas configuradas como 8 en serie y 2 en paralelo (8S2P).");
 
